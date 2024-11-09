@@ -1,0 +1,430 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Invalid"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Questionable"
+      }
+    ],
+    "description": "Mass edit cells in column Type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Boat"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Attacks on boats"
+      }
+    ],
+    "description": "Mass edit cells in column Type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Watercraft"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Attacks on boats"
+      }
+    ],
+    "description": "Mass edit cells in column Type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Unverified"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Questionable"
+      }
+    ],
+    "description": "Mass edit cells in column Type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Unconfirmed"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Questionable"
+      }
+    ],
+    "description": "Mass edit cells in column Type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Unprovoked"
+      }
+    ],
+    "description": "Mass edit cells in column Type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MEXICO",
+          "MEXICO ",
+          "MeXICO",
+          "Mexico"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MEXICO"
+      },
+      {
+        "from": [
+          "SOUTH AFRICA",
+          "South Africa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SOUTH AFRICA"
+      },
+      {
+        "from": [
+          "PHILIPPINES",
+          " PHILIPPINES"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PHILIPPINES"
+      },
+      {
+        "from": [
+          "AUSTRALIA",
+          "Australia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "AUSTRALIA"
+      },
+      {
+        "from": [
+          "TURKS and CaICOS",
+          "Turks and Caicos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TURKS and CAICOS"
+      },
+      {
+        "from": [
+          "TOBAGO",
+          "Tobago"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TOBAGO"
+      },
+      {
+        "from": [
+          "JAMAICA",
+          "Jamaica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "JAMAICA"
+      },
+      {
+        "from": [
+          "Maldive Islands",
+          "MALDIVE ISLANDS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MALDIVES"
+      },
+      {
+        "from": [
+          "FRENCH POLYNESIA",
+          "French Polynesia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FRENCH POLYNESIA"
+      },
+      {
+        "from": [
+          "HONDURAS",
+          "Honduras"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "HONDURAS"
+      },
+      {
+        "from": [
+          "MALDIVES",
+          "Maldives"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MALDIVES"
+      },
+      {
+        "from": [
+          "BELIZE",
+          "Belize"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BELIZE"
+      },
+      {
+        "from": [
+          "SIERRA LEONE",
+          "Sierra Leone"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SIERRA LEONE"
+      },
+      {
+        "from": [
+          "NORTH ATLANTIC OCEAN",
+          "NORTH ATLANTIC OCEAN "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NORTH ATLANTIC OCEAN"
+      },
+      {
+        "from": [
+          "SEYCHELLES",
+          "Seychelles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SEYCHELLES"
+      },
+      {
+        "from": [
+          "NICARAGUA",
+          "NICARAGUA "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NICARAGUA"
+      },
+      {
+        "from": [
+          "PACIFIC OCEAN",
+          "PACIFIC OCEAN "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PACIFIC OCEAN"
+      },
+      {
+        "from": [
+          "FIJI",
+          "Fiji"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FIJI"
+      },
+      {
+        "from": [
+          "BAHAMAS",
+          "Bahamas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BAHAMAS"
+      },
+      {
+        "from": [
+          "YEMEN ",
+          "YEMEN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "YEMEN "
+      },
+      {
+        "from": [
+          "ST MARTIN",
+          "ST. MARTIN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ST MARTIN"
+      },
+      {
+        "from": [
+          "NEW ZEALAND",
+          "New Zealand"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NEW ZEALAND"
+      },
+      {
+        "from": [
+          "EGYPT",
+          "EGYPT "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "EGYPT"
+      },
+      {
+        "from": [
+          "TONGA",
+          " TONGA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TONGA"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ST MARTIN",
+          "ST. MAARTIN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ST MARTIN"
+      },
+      {
+        "from": [
+          "COLUMBIA",
+          "COLOMBIA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "COLOMBIA"
+      },
+      {
+        "from": [
+          "UNITED ARAB EMIRATES",
+          "UNITED ARAB EMIRATES (UAE)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UNITED ARAB EMIRATES"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ATLANTIC OCEAN",
+          "MID ATLANTIC OCEAN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ATLANTIC OCEAN"
+      },
+      {
+        "from": [
+          "PACIFIC OCEAN",
+          "NORTH PACIFIC OCEAN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PACIFIC OCEAN"
+      },
+      {
+        "from": [
+          "SOUTH ATLANTIC OCEAN",
+          "NORTH ATLANTIC OCEAN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ATLANTIC OCEAN"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  }
+]
