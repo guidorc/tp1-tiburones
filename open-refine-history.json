@@ -426,5 +426,1416 @@
       }
     ],
     "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Country using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Country using expression value.toUppercase()"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3624078",
+        "name": "sovereign state"
+      },
+      "autoMatch": true,
+      "batchSize": 10,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Country to type Q3624078"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "State",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column State using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "State",
+          "columnName": "State",
+          "query": "hawai",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Year",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Year using expression value.trim()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Sex",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " M"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": " M"
+      }
+    ],
+    "description": "Mass edit cells in column Sex"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Sex",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " M"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "M"
+      }
+    ],
+    "description": "Mass edit cells in column Sex"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Sex",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column Sex"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Sex",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "lli"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "M"
+      }
+    ],
+    "description": "Mass edit cells in column Sex"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Sex",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "M "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "M"
+      }
+    ],
+    "description": "Mass edit cells in column Sex"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Sex",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "M x 2"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "M"
+      }
+    ],
+    "description": "Mass edit cells in column Sex"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "TURKS AND CAICOS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TURKS & CAICOS"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "TRINIDAD"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TRINIDAD & TOBAGO"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "SUDAN?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SUDAN"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "SOUTH PACIFIC OCEAN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PACIFIC OCEAN"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "SOUTHWEST PACIFIC OCEAN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PACIFIC OCEAN"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "SOLOMON ISLANDS / VANUATU"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SOLOMON ISLANDS"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "RED SEA?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "RED SEA"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "RED SEA / INDIAN OCEAN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "RED SEA"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MID-PACIFC OCEAN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PACIFC OCEAN"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "INDIAN OCEAN?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "INDIAN OCEAN"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "Ceylon",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CEYLON"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SRI LANKA"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "Ceylon",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CEYLON (SRI LANKA)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SRI LANKA"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ANDAMAN / NICOBAR ISLANDAS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANDAMAN ISLANDAS"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ANDAMAN ISLANDAS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANDAMAN ISLANDS"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "BRITISH WEST INDIES"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TURKS & CAICOS"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "BRITISH OVERSEAS TERRITORY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TURKS & CAICOS"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "BRITISH ISLES"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UNITED KINGDOM"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "EGYPT / ISRAEL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "EGYPT"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "Tobago",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "TOBAGO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TRINIDAD & TOBAGO"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "nevis",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "NEVIS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SAINT KITTS & NEVIS"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "nevis",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ST KITTS / NEVIS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SAINT KITTS & NEVIS"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "IRELAND",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "IRELAND"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UNITED KINGDOM"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "SCOTLAND",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "SCOTLAND"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UNITED KINGDOM"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "ENGLAND",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ENGLAND"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UNITED KINGDOM"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "BURMA",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "BURMA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MYANMAR"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "CRETE",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CRETE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "GREECE"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "HONG KO",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "HONG KONG"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CHINA"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "JAVA",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "JAVA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "INDONESIA"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "ROATAN",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ROATAN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "HONDURAS"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ANDAMAN ISLANDS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "INDIA"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "AZORES"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PORTUGAL"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ADMIRALTY ISLANDS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PAPUA NEW GUINEA"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "NEW GUINE",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "NEW GUINEA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PAPUA NEW GUINEA"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "BRITAIN",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "NEW BRITAIN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PAPUA NEW GUINEA"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "JOHN",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "JOHNSTON ISLAND"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "USA"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "OKI",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "OKINAWA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "JAPAN"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "SAMOA",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "WESTERN SAMOA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SAMOA"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ANTIGUA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANTIGUA & BARBUDA"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "MICRO",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "FEDERATED STATES OF MICRONESIA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MICRONESIA"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "EQUATORIAL GUINEA / CAMEROON"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "EQUATORIAL GUINEA"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "CAYMAN",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "GRAND CAYMAN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CAYMAN ISLANDS"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "PACIFIC",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CENTRAL PACIFIC"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PACIFIC OCEAN"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ITALY / CROATIA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CROATIA"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "KOREA",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "KOREA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SOUTH KOREA"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "THE BALKANS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SLOVENIA"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Country",
+          "columnName": "Country",
+          "query": "ITALY",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "similarValue": "ITALY",
+    "judgment": "matched",
+    "match": {
+      "id": "Q38",
+      "name": "Italy",
+      "types": [
+        "Q6256",
+        "Q3624078",
+        "Q619610",
+        "Q179164",
+        "Q7270",
+        "Q51576574",
+        "Q185145"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Italy (Q38) for cells containing \"ITALY\" in column Country"
   }
 ]

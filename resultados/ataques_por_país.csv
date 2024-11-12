@@ -1,184 +1,185 @@
 ,Country,Attacks
-0,United States of America,2551
+0,United States Of America,2551
 1,Australia,1485
 2,South Africa,598
-3,New Zealand,145
-4,The Bahamas,137
-5,Papua New Guinea,136
+3,Papua New Guinea,154
+4,New Zealand,145
+5,The Bahamas,137
 6,Brazil,122
 7,Mexico,106
-8,ITALY,72
+8,Italy,72
 9,Fiji,70
-10,NEW CALEDONIA,65
+10,New Caledonia,65
 11,Philippines,64
-12,REUNION,60
-13,Egypt,51
+12,Reunion,60
+13,Egypt,52
 14,Cuba,49
-15,SPAIN,46
-16,Mozambique,46
-17,India,41
-18,ATLANTIC OCEAN,39
-19,FRENCH POLYNESIA,38
-20,JAPAN,36
-21,Croatia,35
-22,Panama,32
-23,Jamaica,31
-24,Solomon Islands,30
-25,PACIFIC OCEAN,30
-26,IRAN,29
-27,Kingdom of England,25
-28,Indonesia,24
-29,HONG KONG,24
-30,Greece,24
-31,Tonga,18
-32,Costa Rica,18
-33,BERMUDA,16
-34,Vietnam,15
-35,Sri Lanka,14
+15,United Kingdom,47
+16,Spain,46
+17,Mozambique,46
+18,India,44
+19,Japan,42
+20,Atlantic Ocean,39
+21,French Polynesia,38
+22,Croatia,36
+23,China,33
+24,Pacific Ocean,32
+25,Panama,32
+26,Solomon Islands,31
+27,Jamaica,31
+28,Iran,29
+29,Greece,26
+30,Indonesia,25
+31,Costa Rica,18
+32,Sri Lanka,18
+33,Tonga,18
+34,Bermuda,16
+35,Vietnam,15
 36,Canada,14
 37,Vanuatu,14
-38,Marshall Islands,13
-39,FRANCE,13
-40,Turkey,12
-41,UNITED KINGDOM,12
-42,Iraq,12
-43,Thailand,12
-44,Colombia,12
-45,NEW GUINEA,11
-46,Senegal,11
-47,Venezuela,11
-48,Samoa,11
-49,Ecuador,11
-50,Seychelles,10
-51,KENYA,10
-52,MAURITIUS,10
-53,CHINA,9
-54,SIERRA LEONE,9
-55,Yemen,9
-56,TURKS & CAICOS,9
-57,Taiwan,9
-58,Israel,8
-59,South Korea,8
-60,Belize,8
-61,Chile,8
-62,Maldives,8
-63,Kingdom of Scotland,8
-64,Tanzania,8
-65,CARIBBEAN SEA,8
-66,Madagascar,8
-67,INDIAN OCEAN,8
-68,Nicaragua,7
-69,Dominican Republic,7
+38,France,13
+39,Marshall Islands,13
+40,Iraq,12
+41,Turkey,12
+42,Thailand,12
+43,Colombia,12
+44,Ecuador,11
+45,Samoa,11
+46,Venezuela,11
+47,Senegal,11
+48,Seychelles,10
+49,Mauritius,10
+50,Kenya,10
+51,South Korea,9
+52,Yemen,9
+53,Sierra Leone,9
+54,Portugal,9
+55,Turks & Caicos,9
+56,Taiwan,9
+57,Caribbean Sea,8
+58,Tanzania,8
+59,Madagascar,8
+60,Maldives,8
+61,Belize,8
+62,Indian Ocean,8
+63,Chile,8
+64,Israel,8
+65,Honduras,7
+66,Dominican Republic,7
+67,Nicaragua,7
+68,Kiribati,6
+69,Singapore,6
 70,Somalia,6
-71,OKINAWA,6
-72,Honduras,6
-73,Libya,6
-74,Barbados,6
-75,Singapore,6
-76,Kiribati,6
-77,NEW BRITAIN,6
-78,Sudan,5
-79,REUNION ISLAND,5
-80,Malaysia,5
-81,Palau,5
-82,Saudi Arabia,5
-83,Malta,5
-84,AZORES,5
-85,GUAM,4
-86,RUSSIA,4
-87,SRI LANKA,4
-88,Myanmar,4
-89,Portugal,4
-90,Federated States of Micronesia,4
-91,Uruguay,4
-92,PERSIAN GULF,4
-93,United Arab Emirates,4
-94,Nigeria,4
-95,El Salvador,4
-96,Grenada,4
-97,MARTINIQUE,3
-98,GUYANA,3
-99,Haiti,3
-100,Tunisia,3
-101,AMERICAN SAMOA,3
-102,Lebanon,3
-103,Montenegro,3
-104,Guinea,3
-105,RED SEA,3
-106,Liberia,3
-107,Trinidad and Tobago,3
-108,Cape Verde,3
-109,TOBAGO,3
-110,ST MARTIN,3
-111,ANTIGUA,2
-112,ANDAMAN ISLANDS,2
+71,Libya,6
+72,Barbados,6
+73,Palau,5
+74,Sudan,5
+75,Malta,5
+76,Saudi Arabia,5
+77,Reunion Island,5
+78,Malaysia,5
+79,Persian Gulf,4
+80,Nigeria,4
+81,El Salvador,4
+82,Trinidad & Tobago,4
+83,Federated States Of Micronesia,4
+84,Uruguay,4
+85,Grenada,4
+86,United Arab Emirates,4
+87,Guam,4
+88,Russia,4
+89,Myanmar,4
+90,Liberia,3
+91,Lebanon,3
+92,Guinea,3
+93,Trinidad And Tobago,3
+94,Red Sea,3
+95,Tunisia,3
+96,Montenegro,3
+97,American Samoa,3
+98,"St Helena, British Overseas Territory",3
+99,Guyana,3
+100,Martinique,3
+101,Haiti,3
+102,St Martin,3
+103,Cayman Islands,3
+104,Cape Verde,3
+105,West Indies,2
+106,Usa,2
+107,Slovenia,2
+108,Iceland,2
+109,Peru,2
+110,Mediterranean Sea,2
+111,Norway,2
+112,Namibia,2
 113,Argentina,2
-114,Peru,2
-115,CAYMAN ISLANDS,2
-116,CENTRAL PACIFIC,2
-117,JOHNSTON ISLAND,2
-118,"ST HELENA, BRITISH OVERSEAS TERRITORY",2
-119,Namibia,2
-120,NORWAY,2
-121,CRETE,2
-122,Iceland,2
-123,IRELAND,2
-124,WEST INDIES,2
-125,MEDITERRANEAN SEA,2
-126,Cyprus,1
-127,Paraguay,1
-128,TRINIDAD & TOBAGO,1
-129,OCEAN,1
-130,FALKLAND ISLANDS,1
-131,Kuwait,1
-132,Georgia,1
-133,Syria,1
-134,Tuvalu,1
-135,CORAL SEA,1
-136,Angola,1
-137,Morocco,1
-138,EQUATORIAL GUINEA / CAMEROON,1
-139,COOK ISLANDS,1
-140,AFRICA,1
-141,Algeria,1
-142,COAST OF AFRICA,1
-143,TASMAN SEA,1
-144,GHANA,1
-145,GREENLAND,1
-146,Sweden,1
-147,ROATAN,1
-148,BETWEEN PORTUGAL & INDIA,1
-149,Djibouti,1
-150,Bahrain,1
-151,KOREA,1
-152,SAN DOMINGO,1
-153,Slovenia,1
-154,Jordan,1
-155,Monaco,1
-156,EGYPT,1
-157,GRAND CAYMAN,1
-158,GULF OF ADEN,1
-159,SOUTH CHINA SEA,1
-160,Bangladesh,1
-161,BRITISH VIRGIN ISLANDS,1
-162,NEVIS,1
-163,State of Palestine,1
-164,DIEGO GARCIA,1
-165,PUERTO RICO,1
-166,ARUBA,1
-167,ADMIRALTY ISLANDS,1
-168,NORTH SEA,1
-169,Comoros,1
-170,Gabon,1
-171,MAYOTTE,1
-172,THE BALKANS,1
-173,Guatemala,1
-174,NETHERLANDS ANTILLES,1
-175,NORTHERN MARIANA ISLANDS,1
-176,IRAN / IRAQ,1
-177,JAVA,1
-178,SOLOMON ISLANDS,1
-179,BAY OF BENGAL,1
+114,Saint Kitts & Nevis,2
+115,Antigua & Barbuda,2
+116,Bangladesh,1
+117,Africa,1
+118,Jordan,1
+119,Paraguay,1
+120,Ocean,1
+121,Georgia,1
+122,Syria,1
+123,Tuvalu,1
+124,Equatorial Guinea,1
+125,Cook Islands,1
+126,Coral Sea,1
+127,Coast Of Africa,1
+128,Algeria,1
+129,Aruba,1
+130,Tasman Sea,1
+131,Ghana,1
+132,Greenland,1
+133,Morocco,1
+134,Sweden,1
+135,Between Portugal & India,1
+136,Djibouti,1
+137,Bahrain,1
+138,Saint Kitts And Nevis,1
+139,Falkland Islands,1
+140,Cyprus,1
+141,South China Sea,1
+142,Angola,1
+143,North Sea,1
+144,Northern Arabian Sea,1
+145,Gulf Of Aden,1
+146,Gabon,1
+147,Mayotte,1
+148,British Virgin Islands,1
+149,Guatemala,1
+150,Netherlands Antilles,1
+151,Northern Mariana Islands,1
+152,Iran / Iraq,1
+153,Bay Of Bengal,1
+154,Pacifc Ocean,1
+155,Curacao,1
+156,State Of Palestine,1
+157,Diego Garcia,1
+158,Monaco,1
+159,Puerto Rico,1
+160,Comoros,1
+161,San Domingo,1
+162,Kuwait,1
+163,Asia?,1
+MARIANA ISLANDS,1
+165,IRAN / IRAQ,1
+166,INDONESIA,1
+167,SOLOMON ISLANDS,1
+168,BAY OF BENGAL,1
+169,PACIFC OCEAN,1
+170,Slovenia,1
+171,CURACAO,1
+172,Angola,1
+173,ARUBA,1
+174,Monaco,1
+175,ASIA?,1
+,Slovenia,1
+175,CURACAO,1
+176,CROATIA,1
+177,ASIA?,1
+BAY OF BENGAL,1
 180,PACIFC OCEAN,1
 181,NORTHERN ARABIAN SEA,1
 182,CURACAO,1

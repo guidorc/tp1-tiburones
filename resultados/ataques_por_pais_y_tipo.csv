@@ -1,0 +1,372 @@
+Country,Type,Attacks
+Africa,Unprovoked,1
+Algeria,Unprovoked,1
+American Samoa,Unprovoked,3
+Angola,Unprovoked,1
+Antigua & Barbuda,Questionable,1
+Antigua & Barbuda,Sea Disaster,1
+Argentina,Questionable,1
+Argentina,Unprovoked,1
+Aruba,Sea Disaster,1
+Asia?,Unprovoked,1
+Atlantic Ocean,Attacks on boats,5
+Atlantic Ocean,Provoked,3
+Atlantic Ocean,Questionable,3
+Atlantic Ocean,Sea Disaster,16
+Atlantic Ocean,Unprovoked,12
+Australia,Attacks on boats,128
+Australia,Provoked,144
+Australia,Questionable,128
+Australia,Sea Disaster,24
+Australia,Unprovoked,1061
+Bahrain,Unprovoked,1
+Bangladesh,Sea Disaster,1
+Barbados,Sea Disaster,1
+Barbados,Unprovoked,5
+Bay Of Bengal,Sea Disaster,1
+Belize,Provoked,2
+Belize,Questionable,1
+Belize,Unprovoked,5
+Bermuda,Attacks on boats,1
+Bermuda,Provoked,2
+Bermuda,Questionable,3
+Bermuda,Sea Disaster,3
+Bermuda,Unprovoked,7
+Between Portugal & India,Unprovoked,1
+Brazil,Provoked,6
+Brazil,Questionable,10
+Brazil,Sea Disaster,5
+Brazil,Unprovoked,101
+British Virgin Islands,Questionable,1
+Canada,Attacks on boats,3
+Canada,Provoked,2
+Canada,Questionable,1
+Canada,Sea Disaster,2
+Canada,Unprovoked,6
+Cape Verde,Questionable,2
+Cape Verde,Unprovoked,1
+Caribbean Sea,Attacks on boats,2
+Caribbean Sea,Questionable,1
+Caribbean Sea,Sea Disaster,3
+Caribbean Sea,Unprovoked,2
+Cayman Islands,Questionable,2
+Cayman Islands,Unprovoked,1
+Chile,Provoked,1
+Chile,Unprovoked,7
+China,Provoked,3
+China,Sea Disaster,2
+China,Unprovoked,28
+Coast Of Africa,Unprovoked,1
+Colombia,Questionable,1
+Colombia,Sea Disaster,1
+Colombia,Unprovoked,10
+Comoros,Questionable,1
+Cook Islands,Sea Disaster,1
+Coral Sea,Attacks on boats,1
+Costa Rica,Questionable,2
+Costa Rica,Unprovoked,16
+Croatia,Attacks on boats,3
+Croatia,Provoked,3
+Croatia,Questionable,8
+Croatia,Unprovoked,22
+Cuba,Attacks on boats,1
+Cuba,Provoked,6
+Cuba,Questionable,3
+Cuba,Sea Disaster,7
+Cuba,Unprovoked,32
+Curacao,Unprovoked,1
+Cyprus,Unprovoked,1
+Diego Garcia,Unprovoked,1
+Djibouti,Unprovoked,1
+Dominican Republic,Provoked,1
+Dominican Republic,Sea Disaster,2
+Dominican Republic,Unprovoked,4
+Ecuador,Unprovoked,11
+Egypt,Questionable,5
+Egypt,Sea Disaster,2
+Egypt,Unprovoked,45
+El Salvador,Attacks on boats,1
+El Salvador,Provoked,1
+El Salvador,Unprovoked,2
+Equatorial Guinea,Unprovoked,1
+Falkland Islands,Unprovoked,1
+Federated States Of Micronesia,Unprovoked,4
+Fiji,Attacks on boats,1
+Fiji,Provoked,3
+Fiji,Questionable,2
+Fiji,Sea Disaster,3
+Fiji,Unprovoked,61
+France,Attacks on boats,1
+France,Provoked,3
+France,Questionable,2
+France,Unprovoked,7
+French Polynesia,Provoked,6
+French Polynesia,Questionable,1
+French Polynesia,Unprovoked,31
+Gabon,Unprovoked,1
+Georgia,Provoked,1
+Ghana,Unprovoked,1
+Greece,Questionable,6
+Greece,Sea Disaster,2
+Greece,Unprovoked,18
+Greenland,Attacks on boats,1
+Grenada,Unprovoked,4
+Guam,Provoked,1
+Guam,Questionable,1
+Guam,Unprovoked,2
+Guatemala,Questionable,1
+Guinea,Questionable,1
+Guinea,Unprovoked,2
+Gulf Of Aden,Unprovoked,1
+Guyana,Questionable,1
+Guyana,Sea Disaster,1
+Guyana,Unprovoked,1
+Haiti,Questionable,1
+Haiti,Unprovoked,2
+Honduras,Questionable,1
+Honduras,Sea Disaster,1
+Honduras,Unprovoked,5
+Iceland,Questionable,1
+Iceland,Unprovoked,1
+India,Attacks on boats,1
+India,Provoked,1
+India,Questionable,1
+India,Sea Disaster,1
+India,Unprovoked,40
+Indian Ocean,Questionable,2
+Indian Ocean,Sea Disaster,3
+Indian Ocean,Unprovoked,3
+Indonesia,Questionable,1
+Indonesia,Sea Disaster,6
+Indonesia,Unprovoked,18
+Iran,Provoked,1
+Iran,Unprovoked,28
+Iran / Iraq,Unprovoked,1
+Iraq,Unprovoked,12
+Israel,Attacks on boats,1
+Israel,Provoked,1
+Israel,Questionable,1
+Israel,Unprovoked,5
+Italy,Attacks on boats,16
+Italy,Provoked,13
+Italy,Questionable,12
+Italy,Sea Disaster,4
+Italy,Unprovoked,27
+Jamaica,Provoked,2
+Jamaica,Questionable,3
+Jamaica,Sea Disaster,1
+Jamaica,Unprovoked,25
+Japan,Attacks on boats,2
+Japan,Provoked,2
+Japan,Questionable,5
+Japan,Sea Disaster,3
+Japan,Unprovoked,30
+Jordan,Unprovoked,1
+Kenya,Unprovoked,10
+Kiribati,Sea Disaster,2
+Kiribati,Unprovoked,4
+Kuwait,Unprovoked,1
+Lebanon,Unprovoked,3
+Liberia,Questionable,1
+Liberia,Unprovoked,2
+Libya,Sea Disaster,1
+Libya,Unprovoked,5
+Madagascar,Provoked,1
+Madagascar,Questionable,1
+Madagascar,Unprovoked,6
+Malaysia,Provoked,1
+Malaysia,Questionable,1
+Malaysia,Unprovoked,3
+Maldives,Provoked,1
+Maldives,Sea Disaster,1
+Maldives,Unprovoked,6
+Malta,Attacks on boats,2
+Malta,Unprovoked,3
+Marshall Islands,Questionable,2
+Marshall Islands,Unprovoked,11
+Martinique,Sea Disaster,2
+Martinique,Unprovoked,1
+Mauritius,Provoked,2
+Mauritius,Sea Disaster,1
+Mauritius,Unprovoked,7
+Mayotte,Unprovoked,1
+Mediterranean Sea,Unprovoked,2
+Mexico,Attacks on boats,3
+Mexico,Provoked,12
+Mexico,Questionable,14
+Mexico,Sea Disaster,3
+Mexico,Unprovoked,74
+Monaco,Unprovoked,1
+Montenegro,Attacks on boats,1
+Montenegro,Questionable,1
+Montenegro,Unprovoked,1
+Morocco,Unprovoked,1
+Mozambique,Attacks on boats,2
+Mozambique,Questionable,4
+Mozambique,Sea Disaster,2
+Mozambique,Unprovoked,38
+Myanmar,Provoked,1
+Myanmar,Unprovoked,3
+Namibia,Provoked,1
+Namibia,Unprovoked,1
+Netherlands Antilles,Unprovoked,1
+New Caledonia,Attacks on boats,1
+New Caledonia,Provoked,1
+New Caledonia,Questionable,1
+New Caledonia,Sea Disaster,3
+New Caledonia,Unprovoked,59
+New Zealand,Attacks on boats,17
+New Zealand,Provoked,21
+New Zealand,Questionable,13
+New Zealand,Unprovoked,94
+Nicaragua,Provoked,1
+Nicaragua,Unprovoked,6
+Nigeria,Unprovoked,4
+North Sea,Provoked,1
+Northern Arabian Sea,Unprovoked,1
+Northern Mariana Islands,Unprovoked,1
+Norway,Provoked,1
+Norway,Questionable,1
+Ocean,Sea Disaster,1
+Pacifc Ocean,Sea Disaster,1
+Pacific Ocean,Provoked,5
+Pacific Ocean,Questionable,2
+Pacific Ocean,Sea Disaster,18
+Pacific Ocean,Unprovoked,7
+Palau,Provoked,1
+Palau,Unprovoked,4
+Panama,Provoked,4
+Panama,Questionable,1
+Panama,Unprovoked,27
+Papua New Guinea,Attacks on boats,3
+Papua New Guinea,Provoked,14
+Papua New Guinea,Questionable,2
+Papua New Guinea,Sea Disaster,6
+Papua New Guinea,Unprovoked,129
+Paraguay,Unprovoked,1
+Persian Gulf,Sea Disaster,1
+Persian Gulf,Unprovoked,3
+Peru,Unprovoked,2
+Philippines,Provoked,2
+Philippines,Questionable,4
+Philippines,Sea Disaster,26
+Philippines,Unprovoked,32
+Portugal,Attacks on boats,4
+Portugal,Provoked,3
+Portugal,Questionable,1
+Portugal,Unprovoked,1
+Puerto Rico,Unprovoked,1
+Red Sea,Sea Disaster,1
+Red Sea,Unprovoked,2
+Reunion,Attacks on boats,3
+Reunion,Unprovoked,57
+Reunion Island,Questionable,2
+Reunion Island,Unprovoked,3
+Russia,Unprovoked,4
+Saint Kitts & Nevis,Questionable,2
+Saint Kitts And Nevis,Unprovoked,1
+Samoa,Attacks on boats,1
+Samoa,Provoked,1
+Samoa,Sea Disaster,1
+Samoa,Unprovoked,8
+San Domingo,Sea Disaster,1
+Saudi Arabia,Questionable,1
+Saudi Arabia,Unprovoked,4
+Senegal,Provoked,2
+Senegal,Questionable,2
+Senegal,Sea Disaster,1
+Senegal,Unprovoked,6
+Seychelles,Questionable,1
+Seychelles,Unprovoked,9
+Sierra Leone,Sea Disaster,2
+Sierra Leone,Unprovoked,7
+Singapore,Unprovoked,6
+Slovenia,Attacks on boats,1
+Slovenia,Unprovoked,1
+Solomon Islands,Provoked,1
+Solomon Islands,Sea Disaster,9
+Solomon Islands,Unprovoked,21
+Somalia,Provoked,1
+Somalia,Questionable,1
+Somalia,Unprovoked,4
+South Africa,Attacks on boats,55
+South Africa,Provoked,58
+South Africa,Questionable,66
+South Africa,Sea Disaster,5
+South Africa,Unprovoked,414
+South China Sea,Unprovoked,1
+South Korea,Unprovoked,9
+Spain,Attacks on boats,1
+Spain,Provoked,5
+Spain,Questionable,10
+Spain,Unprovoked,30
+Sri Lanka,Questionable,2
+Sri Lanka,Sea Disaster,1
+Sri Lanka,Unprovoked,15
+"St Helena, British Overseas Territory",Unprovoked,3
+St Martin,Attacks on boats,1
+St Martin,Unprovoked,2
+State Of Palestine,Provoked,1
+Sudan,Provoked,2
+Sudan,Sea Disaster,1
+Sudan,Unprovoked,2
+Sweden,Unprovoked,1
+Syria,Questionable,1
+Taiwan,Provoked,2
+Taiwan,Sea Disaster,1
+Taiwan,Unprovoked,6
+Tanzania,Provoked,1
+Tanzania,Questionable,1
+Tanzania,Unprovoked,6
+Tasman Sea,Unprovoked,1
+Thailand,Provoked,2
+Thailand,Unprovoked,10
+The Bahamas,Attacks on boats,1
+The Bahamas,Provoked,18
+The Bahamas,Questionable,7
+The Bahamas,Sea Disaster,5
+The Bahamas,Unprovoked,106
+Tonga,Provoked,2
+Tonga,Questionable,2
+Tonga,Sea Disaster,2
+Tonga,Unprovoked,12
+Trinidad & Tobago,Provoked,1
+Trinidad & Tobago,Unprovoked,3
+Trinidad And Tobago,Provoked,1
+Trinidad And Tobago,Questionable,1
+Trinidad And Tobago,Unprovoked,1
+Tunisia,Unprovoked,3
+Turkey,Attacks on boats,6
+Turkey,Provoked,1
+Turkey,Questionable,1
+Turkey,Unprovoked,4
+Turks & Caicos,Sea Disaster,1
+Turks & Caicos,Unprovoked,8
+Tuvalu,Sea Disaster,1
+United Arab Emirates,Attacks on boats,1
+United Arab Emirates,Questionable,1
+United Arab Emirates,Unprovoked,2
+United Kingdom,Attacks on boats,6
+United Kingdom,Provoked,19
+United Kingdom,Questionable,3
+United Kingdom,Sea Disaster,1
+United Kingdom,Unprovoked,18
+United States Of America,Attacks on boats,82
+United States Of America,Provoked,237
+United States Of America,Questionable,211
+United States Of America,Sea Disaster,37
+United States Of America,Unprovoked,1984
+Uruguay,Unprovoked,4
+Usa,Questionable,1
+Usa,Unprovoked,1
+Vanuatu,Attacks on boats,1
+Vanuatu,Provoked,1
+Vanuatu,Unprovoked,12
+Venezuela,Unprovoked,11
+Vietnam,Provoked,1
+Vietnam,Sea Disaster,2
+Vietnam,Unprovoked,12
+West Indies,Unprovoked,2
+Yemen,Questionable,1
+Yemen,Sea Disaster,1
+Yemen,Unprovoked,7
